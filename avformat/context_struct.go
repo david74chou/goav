@@ -190,10 +190,6 @@ func (ctxt *Context) OutputTsOffset() int64 {
 	return int64(ctxt.output_ts_offset)
 }
 
-func (ctxt *Context) Probesize() int64 {
-	return int64(ctxt.probesize)
-}
-
 func (ctxt *Context) SkipInitialBytes() int64 {
 	return int64(ctxt.skip_initial_bytes)
 }
